@@ -1,0 +1,20 @@
+{
+  "fritchii": {
+    "name": "Fritchii-v5.5-Windows-x64.zip",
+    "version": "v5.5",
+    "url": "https://github.com/Frizti/Fritchii/releases/download/fritchii-v5.5/Fritchii-v5.5-Windows-x64.zip",
+    "sha256": "63112e7125e6174192079475b485f9633509a4a8dfb2630b5f8a96c644abf066"
+  },
+  "sdl": {
+    "name": "SDL3-3.4.20-win32-x64.zip",
+    "version": "3.4.20",
+    "url": "https://github.com/libsdl-org/SDL/releases/download/release-3.4.20/SDL3-3.4.20-win32-x64.zip",
+    "sha256": "368bed8b24e44ad9ea372990814f2343fcfb9e468abb7f8f4a3bc146c7304752"
+  },
+  "streamline": {
+    "name": "streamline-sdk-v2.14.16.zip",
+    "version": "2.14.16",
+    "url": "https://github.com/NVIDIA-RTX/Streamline/releases/download/v2.14.16/streamline-sdk-v2.14.16.zip",
+    "sha256": "32041e51db0cab709a271b72a352281b690c2abbd669a827809401a5dd23956b"
+  }
+}
