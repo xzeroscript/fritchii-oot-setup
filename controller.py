@@ -70,7 +70,7 @@ def main(root=None):
     s = c.CDLL(str(folder / 'SDL3.dll'))
     s.SDL_SetHint.argtypes = [c.c_char_p, c.c_char_p]
     s.SDL_SetHint.restype = c.c_bool
-    # These are the same backend hints set in Fritchii v5.5's SDLDriver constructor.
+    # These are the same backend hints set in Fritchii v5.6's SDLDriver constructor.
     raw = config.getboolean('Controls', 'enable_raw_input', fallback=False)
     hints = {b'SDL_JOYSTICK_RAWINPUT': b'1' if raw else b'0',
              b'SDL_JOYSTICK_HIDAPI_XBOX': b'0',

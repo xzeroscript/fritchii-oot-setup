@@ -4,8 +4,8 @@ This installer downloads software directly from its original publisher and
 checks each archive against its pinned SHA256. The GitHub release does not
 contain the game, firmware, keys, shader caches or another person's saves.
 
-- Fritchii v5.5: https://github.com/Frizti/Fritchii/releases/tag/fritchii-v5.5
-  Source and licenses: https://github.com/Frizti/Fritchii/tree/fritchii-v5.5
+- Fritchii v5.6: https://github.com/Frizti/Fritchii/releases/tag/fritchii-v5.6
+  Source and licenses: https://github.com/Frizti/Fritchii/tree/fritchii-v5.6
   Fritchii/Lichii and its dependencies retain their own licenses. The helper
   is independent and is not an official Fritchii release.
 - SDL 3.4.20: https://github.com/libsdl-org/SDL/releases/tag/release-3.4.20

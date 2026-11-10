@@ -1,9 +1,9 @@
 {
   "fritchii": {
-    "name": "Fritchii-v5.5-Windows-x64.zip",
-    "version": "v5.5",
-    "url": "https://github.com/Frizti/Fritchii/releases/download/fritchii-v5.5/Fritchii-v5.5-Windows-x64.zip",
-    "sha256": "63112e7125e6174192079475b485f9633509a4a8dfb2630b5f8a96c644abf066"
+    "name": "Fritchii-v5.6-Windows-x64.zip",
+    "version": "v5.6",
+    "url": "https://github.com/Frizti/Fritchii/releases/download/fritchii-v5.6/Fritchii-v5.6-Windows-x64.zip",
+    "sha256": "3266298fe6b13aa98b72fd3fb05c219475608661fbe7e4b97902e719acb4c699"
   },
   "sdl": {
     "name": "SDL3-3.4.20-win32-x64.zip",

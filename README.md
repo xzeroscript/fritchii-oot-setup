@@ -18,6 +18,7 @@ runtime is missing, its installation can request Windows administrator consent.
 
 The first game launch prepares shaders. Let it finish; the publisher estimates
 around 15 minutes on an eight-core CPU, with actual time depending on the system.
+Updating from Fritchii v5.5 to v5.6 also requires this preparation once more.
 
 No ROM, firmware, keys, shader dumps, shader cache, account profile or saves are
 included in this repository or its release. A fresh installation starts without
@@ -49,6 +50,10 @@ Switch B is Xbox A, Switch A is Xbox B, Switch Y is Xbox X, and Switch X is Xbox
 This is a **setup helper**, not a patched Fritchii emulator. Dialogue corruption
 after switching UIs and stalls during combat/cutscenes/interactions remain under
 investigation. No claim that this produces a perfectly stable frame rate is made.
+Setup v0.1.1 downloads the publisher's **Fritchii v5.6 pre-release**, which fixes one
+cause of the growing white light beams and includes compute-pipeline stall and
+memory cleanup improvements. Its release notes explicitly say light beams can
+still appear in long sessions; this has not been verified fixed in every scene.
 The failed texture-relocation override, developer CPU sampler, game-frame capture,
 personal diagnostic files and local caches are deliberately not enabled here.
 
@@ -58,7 +63,7 @@ is unsigned, so Windows may display its normal unknown-publisher warning.
 Allow additional space for shader and driver caches on the first game launch.
 
 Fritchii is downloaded unmodified from
-[Frizti/Fritchii](https://github.com/Frizti/Fritchii/releases/tag/fritchii-v5.5).
+[Frizti/Fritchii](https://github.com/Frizti/Fritchii/releases/tag/fritchii-v5.6).
 This project is independent of that publisher and Nintendo.
 
 ## Build from source
@@ -75,7 +80,7 @@ the local launcher, so the installed controller helper does not require Python
 to be installed on the player's PC. `--self-test <json-file>` validates bundled
 resources without opening a GUI or launching a game.
 
-Publish a tag such as `v0.1.0` to build and attach the Windows installer and its
+Publish a tag such as `v0.1.1` to build and attach the Windows installer and its
 SHA256 checksum through GitHub Actions. Game files must never be committed.
 
 The setup code is MIT licensed. See [third-party notices](THIRD_PARTY.md) for

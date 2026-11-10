@@ -16,7 +16,7 @@ import urllib.request
 import zipfile
 import struct
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 TITLE_ID = 0x0400486024DEC000
 
 
